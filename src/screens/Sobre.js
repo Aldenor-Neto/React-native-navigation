@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Button, StyleSheet } from "react-native";
+import { Text, View, Button, StyleSheet, Alert } from "react-native";
 import { useNavigation, useRoute } from "@react-navigation/native";
 
 export default function Sobre() {
@@ -27,3 +27,4 @@ export default function Sobre() {
         </View>
     )
 }
+
